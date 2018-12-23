@@ -13,3 +13,17 @@ This is a collection of Basic and Advanced Algorithms
 | Heapsort            | --             |
 | Bucket sort         | --             |
 | Radix sort          | --             |
+
+
+# Searching
+| Algorithm Name       | Status         |
+| :---                 |     :---:      | 
+| Linear Search        | --             | 
+| Binary Search        | --             |
+| Jump Search          | --             |
+| Interpolation Search | --             |
+| Exponential Search   | --             |
+| Sublist Search       | --             |
+| Heapsort             | --             |
+| Bucket sort          | --             |
+| Radix sort           | --             |

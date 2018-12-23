@@ -1,4 +1,4 @@
-class BubbleSort {
+class SelectionSort {
 
     void sort(int[] array) {
         for (int i = 0; i < array.length; i++) {

@@ -4,61 +4,61 @@ import org.junit.Test;
 import java.util.Random;
 
 
-public class BubbleSortTest {
+public class SelectionSortTest {
 
     @Test
     public void sortPositiveIntegerList() {
         int[] array = {10, 1500, 89, 78, 1, 2, 7};
-        BubbleSort bubbleSort = new BubbleSort();
-        bubbleSort.sort(array);
+        SelectionSort selectionSort = new SelectionSort();
+        selectionSort.sort(array);
         Assert.assertTrue(isArraySorted(array));
     }
 
     @Test
     public void sortIntegerList() {
         int[] array = {10, 1500, -5, -3, 89, 78, 0, 1, 2, 7};
-        BubbleSort bubbleSort = new BubbleSort();
-        bubbleSort.sort(array);
+        SelectionSort selectionSort = new SelectionSort();
+        selectionSort.sort(array);
         Assert.assertTrue(isArraySorted(array));
     }
 
     @Test
     public void sortNegativeIntegerList() {
         int[] array = {-5, -15, -3, -2, -1000};
-        BubbleSort bubbleSort = new BubbleSort();
-        bubbleSort.sort(array);
+        SelectionSort selectionSort = new SelectionSort();
+        selectionSort.sort(array);
         Assert.assertTrue(isArraySorted(array));
     }
 
     @Test
     public void sortIntegerWithDuplicationList() {
         int[] array = {10, 1500, 0, 1, 1, 1, 1, 1, 1, -5, -3, 89, 78, 0, 1, 2, 7};
-        BubbleSort bubbleSort = new BubbleSort();
-        bubbleSort.sort(array);
+        SelectionSort selectionSort = new SelectionSort();
+        selectionSort.sort(array);
         Assert.assertTrue(isArraySorted(array));
     }
 
     @Test
     public void sortEmptyList() {
         int[] array = {};
-        BubbleSort bubbleSort = new BubbleSort();
-        bubbleSort.sort(array);
+        SelectionSort selectionSort = new SelectionSort();
+        selectionSort.sort(array);
         Assert.assertTrue(isArraySorted(array));
     }
 
     @Test
     public void sortOneElementList() {
         int[] array = {0};
-        BubbleSort bubbleSort = new BubbleSort();
-        bubbleSort.sort(array);
+        SelectionSort selectionSort = new SelectionSort();
+        selectionSort.sort(array);
         Assert.assertTrue(isArraySorted(array));
     }
 
     @Test
     public void sortRandomGeneratedNumbersList() {
         int[] array = new Random().ints(10, -100, 100).toArray();
-        BubbleSort bubbleSort = new BubbleSort();
-        bubbleSort.sort(array);
+        SelectionSort selectionSort = new SelectionSort();
+        selectionSort.sort(array);
         Assert.assertTrue(isArraySorted(array));
     }
 
@@ -66,7 +66,7 @@ public class BubbleSortTest {
 //    public void sortRandomBigGeneratedNumbersList() {
 //        int[] array = new Random().ints(1000000,-1000000,1000000).toArray();
 //        System.out.println("Random");
-//        BubbleSort bubbleSort = new BubbleSort();
+//        SelectionSort bubbleSort = new SelectionSort();
 //        bubbleSort.sort(array);
 //        Assert.assertTrue(isArraySorted(array));
 //    }

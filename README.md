@@ -6,13 +6,13 @@ This is a collection of Basic and Advanced Algorithms
 | :---                |     :---:      | 
 | Selection Sort      | Done           | 
 | Insertion Sort      | Done           |
-| Bubble Sort         | In Progress    |
+| Bubble Sort         | Done           |
+| Merge Sort          | In Progress    |
 | Quick Sort          | --             |
-| Merge Sort          | --             |
-| Shell sort          | --             |
-| Heapsort            | --             |
-| Bucket sort         | --             |
-| Radix sort          | --             |
+| Shell Sort          | --             |
+| Heap Sort           | --             |
+| Bucket Sort         | --             |
+| Radix Sort          | --             |
 
 
 # Searching
@@ -24,6 +24,3 @@ This is a collection of Basic and Advanced Algorithms
 | Interpolation Search | --             |
 | Exponential Search   | --             |
 | Sublist Search       | --             |
-| Heapsort             | --             |
-| Bucket sort          | --             |
-| Radix sort           | --             |

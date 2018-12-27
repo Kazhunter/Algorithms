@@ -4,7 +4,6 @@ class SelectionSort {
         for (int i = 0; i < array.length; i++) {
             int smallestNumberInArrayIndex = getSmallestNumberInArrayIndex(array, i);
             swapArrayElements(array, i, smallestNumberInArrayIndex);
-//            System.out.println("Progress: " + ((i / (float) array.length) * 100.0));
         }
     }
 

@@ -59,5 +59,4 @@ class MergeSort {
 
         return result;
     }
-
 }

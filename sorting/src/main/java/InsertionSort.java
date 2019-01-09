@@ -20,8 +20,12 @@ class InsertionSort {
 
     private void shiftValueOfArray(int[] array, int indexOfValueToInsert, int indexOfValueToRemove) {
         if (indexOfValueToRemove - indexOfValueToInsert >= 0) {
-            System.arraycopy(array, indexOfValueToInsert, array, indexOfValueToInsert + 1, indexOfValueToRemove - indexOfValueToInsert);
+            System.arraycopy(
+                    array,
+                    indexOfValueToInsert,
+                    array,
+                    indexOfValueToInsert + 1,
+                    indexOfValueToRemove - indexOfValueToInsert);
         }
     }
-
 }

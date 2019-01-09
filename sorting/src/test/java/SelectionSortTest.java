@@ -3,7 +3,6 @@ import org.junit.Test;
 
 import java.util.Random;
 
-
 public class SelectionSortTest {
 
     @Test
@@ -62,14 +61,14 @@ public class SelectionSortTest {
         Assert.assertTrue(isArraySorted(array));
     }
 
-//    @Test  // Run this if you have some time to spend
-//    public void sortRandomBigGeneratedNumbersList() {
-//        int[] array = new Random().ints(1000000,-1000000,1000000).toArray();
-//        System.out.println("Random");
-//        SelectionSort bubbleSort = new SelectionSort();
-//        bubbleSort.sort(array);
-//        Assert.assertTrue(isArraySorted(array));
-//    }
+    //    @Test  // Run this if you have some time to spend
+    //    public void sortRandomBigGeneratedNumbersList() {
+    //        int[] array = new Random().ints(1000000,-1000000,1000000).toArray();
+    //        System.out.println("Random");
+    //        SelectionSort bubbleSort = new SelectionSort();
+    //        bubbleSort.sort(array);
+    //        Assert.assertTrue(isArraySorted(array));
+    //    }
 
     private boolean isArraySorted(int[] array) {
         if (isArrayEmpty(array) || isArrayHasOneElement(array)) {

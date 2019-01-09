@@ -61,14 +61,14 @@ public class InsertionSortTest {
         Assert.assertTrue(isArraySorted(array));
     }
 
-//    @Test  // Run this if you have some time to spend
-//    public void sortRandomBigGeneratedNumbersList() {
-//        int[] array = new Random().ints(1000000,-1000000,1000000).toArray();
-//        System.out.println("Random");
-//        InsertionSort insertionSort = new InsertionSort();
-//        insertionSort.sort(array);
-//        Assert.assertTrue(isArraySorted(array));
-//    }
+    //    @Test  // Run this if you have some time to spend
+    //    public void sortRandomBigGeneratedNumbersList() {
+    //        int[] array = new Random().ints(1000000,-1000000,1000000).toArray();
+    //        System.out.println("Random");
+    //        InsertionSort insertionSort = new InsertionSort();
+    //        insertionSort.sort(array);
+    //        Assert.assertTrue(isArraySorted(array));
+    //    }
 
     private boolean isArraySorted(int[] array) {
         if (isArrayEmpty(array) || isArrayHasOneElement(array)) {
@@ -89,5 +89,4 @@ public class InsertionSortTest {
     private boolean isArrayEmpty(int[] array) {
         return array.length == 0;
     }
-
 }
